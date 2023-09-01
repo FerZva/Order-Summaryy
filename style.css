@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.summary-container {
+    width: 28.125rem;
+    min-height: 43.5625rem;
+    background-color: #FFF;
+    overflow: hidden;
+    border-radius: 1.25rem;
+}
+
+.summary-container .summary-cover {
+    width: 100%;
+    min-height: 13.75rem;
+}
+
+.summary-container .summary-cover .summary-cover-image {
+    width: 100%;
+}
+
+.Summary-advertisment {
+    width: 100%;
+}
+
+.Summary-advertisment .advertsiment-title {
+    margin-top: 2.81rem;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.Summary-advertisment .advertisment-description {
+    margin-top: 1.06rem;
+    color: #717FA6;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem; /* 162.5% */
+}
+
+.summary-item-container {
+    margin: auto;
+    margin-top: 1.25rem;
+    width: 22.125rem;
+    max-height: 6.125rem;
+    padding: 1.5rem;
+    border-radius: 0.6875rem;
+    background: #F7F9FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-item-container .summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-item-container .summary-item .summary-item-img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1.25rem;
+}
+
+.summary-item-container .change-item:hover {
+    transition: 0.2s ease all;
+    cursor: pointer;
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.payment-cancel-section {
+    margin-top: 3.56rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-cancel-section .payment-button {
+    margin: auto;
+    width: 22.125rem;
+    height: 3.125rem;
+    border-radius: 0.6875rem;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    border: none;
+    color: #FFF;
+    font-size: 0.9375rem;
+    font-weight: 900;
+}
+
+.payment-cancel-section .payment-button:hover {
+    cursor: pointer;
+    transition: 0.2s ease all;
+    background: #766CF1;
+}
+
+.payment-cancel-section .cancel-order {
+    text-decoration: none;
+    margin-top: 2rem;
+    color: #717FA6;
+    font-size: 0.9375rem;
+    font-weight: 900;
+}
+
+.payment-cancel-section .cancel-order:hover {
+    cursor: pointer;
+    transition: 0.2s ease all;
+    color: #1F2E55;
+}
